@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Takanote.TabContainer"
+             xmlns:local="clr-namespace:Takanote"
+             xmlns:localfolder="clr-namespace:Takanote.Pages"
+             Title="TabContainer"
+             BarBackgroundColor="{StaticResource MainBackground}"
+             BarTextColor="{StaticResource MainTextColor}"
+             SelectedTabColor="{StaticResource MainTabHighlightColor}"
+             UnselectedTabColor="{StaticResource MainBackground}">
+    
+    <local:MainPage Title="Home" />
+    <localfolder:Events Title="Events" />
+    <localfolder:Tasks Title="Tasks" />
+    <localfolder:Options Title="Options" />
+</TabbedPage>
